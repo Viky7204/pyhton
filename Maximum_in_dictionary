@@ -1,0 +1,5 @@
+scores = {"Alice": 88, "Bob": 95, "Charlie": 90}
+print(max(scores.values()))  output: 95
+
+
+print(max(scores, key=scores.get))  Output: Bob
