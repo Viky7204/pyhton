@@ -1,0 +1,8 @@
+def char_frequency(s: str) -> dict:
+    freq = {}
+    for char in s:
+        # If char exists, increment it; otherwise, start at 0 and add 1
+        freq[char] = freq.get(char, 0) + 1
+    return freq
+
+print(char_frequency("apple"))  # Output: {'a': 1, 'p': 2, 'l': 1, 'e': 1}
