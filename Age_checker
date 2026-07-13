@@ -1,0 +1,16 @@
+# Ask the user for their birth year
+year_input = input("Enter your birth year: ")
+
+# Convert the text input into a whole number (integer)
+birth_year = int(year_input)
+
+# Calculate the age based on the current year (2026)
+age = 2026 - birth_year
+print("You are " + str(age) + " years old.")
+
+# Check if the user is old enough to drive
+if age >= 18:
+    print("You are old enough to drive!")
+else:
+    years_left = 18 - age
+    print("You can drive in " + str(years_left) + " years.")
