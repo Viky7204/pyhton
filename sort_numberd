@@ -1,0 +1,10 @@
+numbers = [5, 2, 9, 1, 5, 6]
+numbers.sort()
+print(numbers)
+
+numbers.sort(reverse=True)
+print(numbers)
+
+data = [5, 2, 9, 1, 5, 6]
+new_list = sorted(data)
+print(new_list)
