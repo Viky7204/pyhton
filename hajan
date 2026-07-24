@@ -1,0 +1,5 @@
+-- Find active adult users over 25
+SELECT name, age 
+FROM users 
+WHERE age > 25 
+ORDER BY age DESC;
